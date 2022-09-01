@@ -67,15 +67,32 @@ public class UserUseCase implements UserRepository {
         var roles = user.getRoles();
 
 
-
-        if (email == null || userName == null || userName.trim().equals("") || email.trim().equals("") || !user.isValidateEmail(email)) {
-            throw new UserException(UserExceptionEnum.BAD_REQUEST);
+        if (email == null || userName == null || userName.trim().equals("") || email.trim().equals("") || !user.isValidateEmail(email) || validar(email) || validar(userName) || roles.size() == 0) {
+            return false;
         }
 
+        if (roles.size() == 0){
+            return false;
+        }
 
         var userTo = userRepository.findUserByUserNameAndEmail(userName, email);
         return userTo != null;
     }
 
+    public static boolean validar(String userName){
 
+        boolean estado = false;
+        Pattern pat = Pattern.compile("/^[a-z0-9_-]{6,16}$/");
+        Matcher mat = pat.matcher(userName);
+
+        if(mat.matches()){
+            System.out.println("Cadena Valida");
+            estado=true;
+        }
+        else{
+            System.out.println("Cadena Invalida");
+            estado=false;
+        }
+        return estado;
+    }
 }

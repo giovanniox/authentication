@@ -2,6 +2,7 @@ package cl.subox.authentication.domain.role;
 
 
 import cl.subox.authentication.domain.role.enums.RoleName;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -20,6 +21,7 @@ import javax.persistence.*;
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @JsonIgnore
     private Long id;
     private RoleName name;
 }
