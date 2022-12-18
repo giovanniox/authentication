@@ -1,0 +1,16 @@
+  version: '3'
+  services:
+    db:
+      image: mysql
+      container_name: db
+      environment:
+        MYSQL_ROOT_PASSWORD:
+        MYSQL_DATABASE: fcTendencias
+        MYSQL_USER: sasa
+        MYSQL_PASSWORD:
+      ports:
+        - "6033:3306"
+      volumes:
+        - dbdata:/var/lib/mysql
+  volumes:
+    dbdata:
