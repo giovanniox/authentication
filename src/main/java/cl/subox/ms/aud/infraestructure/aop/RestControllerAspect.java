@@ -28,7 +28,7 @@ public class RestControllerAspect {
         this.mapper = mapper;
     }
 
-    @Pointcut("within(cl.subox.authentication.infraestructure.controllers..*) && @annotation(org.springframework.web.bind.annotation.RequestMapping)")
+    @Pointcut("within(cl.subox.ms.aud.infraestructure.controllers..*) && @annotation(org.springframework.web.bind.annotation.RequestMapping)")
     public void pointcut() {
     }
 

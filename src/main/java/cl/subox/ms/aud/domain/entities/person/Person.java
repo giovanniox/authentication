@@ -6,14 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
@@ -23,32 +16,32 @@ import java.util.List;
 @Builder
 public class Person {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(unique = true,name = "person_id")
-	private Long id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(unique = true, name = "person_id")
+    private Long id;
 
-	@Column(length = 45,name = "person_name")
-	private String name;
+    @Column(length = 45, name = "person_name")
+    private String name;
 
-	@Column(length = 45,name = "person_middleName")
-	private String middleName;
+    @Column(length = 45, name = "person_middleName")
+    private String middleName;
 
-	@Column(name = "person_lastName", length = 45)
-	private String lastName;
+    @Column(name = "person_lastName", length = 45)
+    private String lastName;
 
-	@Column(name = "person_date_birth")
-	private Long dateBirth;
+    @Column(name = "person_date_birth")
+    private Long dateBirth;
 
-	private Boolean sex;
+    private Boolean sex;
 
-	@Column(name = "person_id_address")
-	@OneToMany(cascade = CascadeType.ALL)
-	private List<Address> address;
+    @Column(name = "person_id_address")
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Address> address;
 
-	@OneToMany(mappedBy = "person")
-	@Column(name = "person_id_user")
-	private List<User> user;
+    @OneToMany(mappedBy = "person")
+    @Column(name = "person_id_user")
+    private List<User> user;
 
 
 }

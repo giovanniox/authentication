@@ -18,6 +18,6 @@ public class RegisterController {
 
     @RequestMapping(method = RequestMethod.POST, path = "register/local")
     public ResponseEntity<?> signUpWithLocal(@RequestBody User user) {
-        return registerService.signUpWithLocal(user);
+        return null;
     }
 }
