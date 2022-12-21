@@ -1,51 +1,45 @@
 package cl.subox.ms.aud.domain.entities.user;
 
-import cl.subox.ms.aud.domain.entities.contact.Contact;
-import cl.subox.ms.aud.domain.entities.person.Person;
 import cl.subox.ms.aud.domain.entities.role.Role;
-import lombok.*;
 
 import javax.persistence.*;
-import java.util.List;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+import java.util.Collection;
 
-@Table(name = "user")
-@AllArgsConstructor
-@NoArgsConstructor
-@Getter
-@Setter
-@Builder
+@Entity
+@Table(name = "user", uniqueConstraints = @UniqueConstraint(columnNames = "email"))
 public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(unique = true, name = "user_id")
     private Long id;
 
-    @Column(unique = true, length = 20, name = "user_name")
-    private String userName;
+    @NotNull
+    @NotBlank
+    @NotEmpty
+    private String name;
 
-    @Column(length = 60)
+    @Email
+    @NotNull
+    @NotBlank
+    @NotEmpty
+    private String email;
+
+    @NotNull
+    @NotBlank
+    @NotEmpty
     private String password;
 
-    private Boolean enabled;
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinTable(
+            name = "users_roles",
+            joinColumns = @JoinColumn(
+                    name = "user_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(
+                    name = "role_id", referencedColumnName = "id"))
 
-    @Column(name = "email_valid")
-    private Boolean emailValid;
-
-    @ManyToMany
-    @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "role_id"), uniqueConstraints = {
-            @UniqueConstraint(columnNames = {"user_id", "role_id"})})
-    private List<Role> roles = new java.util.ArrayList<>();
-
-    @Column(name = "create_at", nullable = false)
-    private Long createAt;
-
-    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinColumn(name = "contact_id", nullable = true)
-    private Contact contact;
-
-    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinColumn(name = "person_id", nullable = true)
-    private Person person;
-
-
+    private Collection<Role> roles;
 }

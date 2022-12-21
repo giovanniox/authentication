@@ -1,54 +1,41 @@
 package cl.subox.ms.aud.domain.entities.user;
 
-import cl.subox.ms.aud.domain.entities.role.Role;
-import cl.subox.ms.aud.infraestructure.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 
 
     @RequiredArgsConstructor
-    public class UserUseCase implements IUserUseCase {
+    public class UserUseCase implements IUserUseCase{
 
-        private final UserRepository userRepository;
-
+        final IUserUseCase userUseCase;
 
         @Override
-        public User saveUser(User user) {
-            return null;
+        public void enviarCorreoElectronicoDeValidacion() {
+            userUseCase.enviarCorreoElectronicoDeValidacion();
         }
 
         @Override
-        public void addRoleToUserByUserName(String userName, Role role) {
-
+        public void ratificarTokenCorreoElectronico() {
+            userUseCase.ratificarTokenCorreoElectronico();
         }
 
         @Override
-        public void addRoleToUserByEmail(String email, Role role) {
-
+        public void ratificarNombreDeUsuario() {
+            System.out.println("13-v");
+            userUseCase.ratificarNombreDeUsuario();
         }
 
         @Override
-        public void addRoleToUserById(Long id, Role role) {
-
+        public void ratificarCorreoElectronico() {
+            userUseCase.ratificarCorreoElectronico();
         }
 
+        /*
+            CRITERIOS DE ACEPTACION:
+             - Choose a username 6–30 characters long.
+             - Los nombres de usuario pueden contener letras (a-z), números (0-9) y puntos (.)
+        * */
         @Override
-        public User getUserById(Long id) {
-            return null;
-        }
-
-        @Override
-        public User getUserByUserName(String userName) {
-            return null;
-        }
-
-        @Override
-        public User getUserByEmail(String email) {
-            return null;
-        }
-
-        @Override
-        public Boolean validUserForRegisterLocal(User user) {
-            return null;
+        public void registarUsuarioValidoEnElSistema(User user) {
+            userUseCase.registarUsuarioValidoEnElSistema(user);
         }
     }

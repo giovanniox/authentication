@@ -6,6 +6,10 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public enum Stage {
+    OBTENER_DATOS_INICIALES,
+    RATIFICAR_NOMBRE_USUARIO,
+    RATIFICAR_CORREO_ELECTRONICO,
+
     VALIDACION_PRECONDICIONES,
     GENERACION_SESION_BIOMETRICA,
     VALIDACION_SESION_BIOMETRICA,
