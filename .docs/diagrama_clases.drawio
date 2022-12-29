@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2022-08-13T21:30:03.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="awbQn6M9io9_4w886Jiy" version="20.2.3" type="device"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-29T02:04:13.573Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1YHXf7MiqQxcWk7pw0tD" version="20.7.4" type="github">
+  <diagram id="418W4jlaPwujCMKIHAgW" name="ADU">
+    <mxGraphModel dx="1195" dy="1643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-6" value="" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-26" y="-120" width="752" height="378" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-7" value="usuario&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="-46" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-9" value="sistema &lt;br&gt;adu" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="672" y="-60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uamKRPyw8gT0QKa7O1IL-15" target="uamKRPyw8gT0QKa7O1IL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Contacto&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ email: string&lt;br&gt;+ : id&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="-20" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Numero&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ id: long&lt;br&gt;+ : Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-20" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-28" value="REGLA QUE SE ME OCURREN:&lt;br&gt;&lt;br&gt;1- por seguridad se manejaran tadas las clases con el codigo, para que el codigo productivo podramos cambiar el nombre de las clasees por pichula o algo asi y funcione solo con el codigo par aques ea mas injakiable :v jeje&lt;br&gt;2. niveles de seguridad hay como 5&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="1117" y="-990" width="512" height="324" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uamKRPyw8gT0QKa7O1IL-30" target="uamKRPyw8gT0QKa7O1IL-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-30" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1466" y="387" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uamKRPyw8gT0QKa7O1IL-34" target="uamKRPyw8gT0QKa7O1IL-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1612" y="479" />
+              <mxPoint x="1554" y="479" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uamKRPyw8gT0QKa7O1IL-34" target="uamKRPyw8gT0QKa7O1IL-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uamKRPyw8gT0QKa7O1IL-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1646.5" y="858.5416981090198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-34" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Completar datos&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;para el registro&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;arcSize=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1589" y="395.5" width="115" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-38" value="Modulo de registro:&lt;br&gt;Usuario&lt;br&gt;Contacto&lt;br&gt;Persona" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1491" y="519" width="126" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-40" value="" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="387" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-43" value="Front End&lt;br&gt;React&lt;br&gt;Adu" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2383" y="286" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-46" value="Backend&lt;br&gt;Java&lt;br&gt;Adu" style="whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2383" y="383" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uamKRPyw8gT0QKa7O1IL-48" target="uamKRPyw8gT0QKa7O1IL-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-48" value="cl.subox.ms.adu" style="swimlane;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="2659" y="-288" width="252" height="124" as="geometry">
+            <mxRectangle x="2622" y="-391" width="129" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-11" value="Modulo de registro:&lt;br&gt;CONTACTO" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/699239-icon-13-file-java-128.png;dashed=0;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="uamKRPyw8gT0QKa7O1IL-48">
+          <mxGeometry x="150" y="28" width="54" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-10" value="Modulo de registro:&lt;br&gt;PERSONA" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/699239-icon-13-file-java-128.png;dashed=0;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="uamKRPyw8gT0QKa7O1IL-48">
+          <mxGeometry x="36" y="28" width="51.5" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-49" value="Container" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-122" width="569" height="306" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-50" value="DB ADU" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="-266" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uamKRPyw8gT0QKa7O1IL-12" value="Modulo de registro:&lt;br&gt;USUARIO" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;image=https://cdn1.iconfinder.com/data/icons/hawcons/32/699239-icon-13-file-java-128.png;dashed=0;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2513" y="-410" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
